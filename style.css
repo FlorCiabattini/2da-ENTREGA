@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+#menu a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-inner{
+    max-height: 39rem;
+
+}
+
+
+/* SOBRE MI */
+
+.sobremiFoto{
+    max-height: 39rem;
+}
+
+
+/* CONTACTO */
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+/* FOOTER */
+
+.footer{
+    color: #bbb0b0;
+    background: #333;
+    padding: 1em;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    
+    
+
+}
+
+.container__footer{
+    border: dashed;
+    border-width: 5px;
+    height: 300px;
+    width: 100%;
+    
+}
+.footer h2{
+    font-size: 35px;
+}
+
+
+.social__media__list__item{
+    display: inline-grid;
+    padding: 10px 50px 10px 50px;
+    margin-right: -10px;
+    
+
+    
+}
+
+
+@media (max-width: 768px){
+    #intro {
+        width: 90% !important;
+    }
+
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
